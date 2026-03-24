@@ -6,7 +6,8 @@ from email.mime.text import MIMEText
 # ======================
 # 🤖 AI Model
 # ======================
-client = InferenceClient(model="mistralai/Mistral-7B-Instruct-v0.2")
+client = InferenceClient(model="mistralai/Mistral-7B-Instruct-v0.2"
+                         )
 
 # ======================
 # 🎨 UI
